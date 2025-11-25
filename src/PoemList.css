@@ -8,7 +8,6 @@
   box-sizing: border-box;
 }
 
-/* Mobilne prilagodbe */
 @media (max-width: 480px) {
   .poem-list {
     gap: 10px;

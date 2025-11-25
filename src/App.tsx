@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import AppLayout from "./AppLayout";
 import PoemList from "./components/PoemList";
 import PoemDetail from "./components/PoemDetail";
