@@ -1,6 +1,6 @@
 import React from "react";
 import "../AuthorFilter.css";
-import poemsData from "../poems.json";
+import poemsData from "../allpoems.json";
 
 interface AuthorFilterProps {
   value: string;

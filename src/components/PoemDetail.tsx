@@ -16,12 +16,14 @@ const PoemDetail: React.FC<PoemDetailProps> = ({
 }) => {
   return (
     <div className="poem-detail">
-      <button className="back-button" onClick={onBack}>
-        ← Nazad
-      </button>
       <h2 className="poem-title">{title}</h2>
-      <p className="poem-author">{author}</p>
-      <div className="poem-content">{content}</div>
+      <div className="poem-content">
+        {content}
+        <p className="poem-author">- {author}</p>
+        <button className="back-button" onClick={onBack}>
+          Nazad
+        </button>
+      </div>
     </div>
   );
 };

@@ -7,6 +7,8 @@
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .poem-content {
@@ -15,6 +17,8 @@
   overflow-y: auto;
   flex: 1;
   margin-top: 10px;
+  font-family: Georgia, serif;
+  color: #333333;
 }
 
 .back-button {
@@ -22,8 +26,9 @@
   border: none;
   padding: 6px 12px;
   border-radius: 6px;
-  margin-bottom: 12px;
+  margin-top: 40px;
   cursor: pointer;
+  margin-left: 60px;
 }
 
 .back-button:hover {
@@ -33,12 +38,17 @@
 .poem-title {
   font-weight: bold;
   font-size: 1.3rem;
-  margin-bottom: 4px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: Georgia, serif;
 }
 
 .poem-author {
   font-style: italic;
   margin-bottom: 12px;
+  font-family: Georgia, serif;
+  margin-left: 60px;
+  margin-top: 20px;
 }
 
 /* Mobilna verzija */
@@ -60,11 +70,14 @@
 
   .poem-content {
     font-size: 0.9rem;
-    line-height: 1.4;
+    line-height: 1.8;
+    justify-content: center;
+    align-items: center;
   }
 
   .back-button {
     padding: 5px 10px;
     font-size: 0.9rem;
+    margin-left: 60px;
   }
 }
